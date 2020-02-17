@@ -1,0 +1,30 @@
+{
+    "customers": [
+        {
+            "id": "1",
+            "name": "Rockets R US",
+            "email": "info@Rocketsru.co.test",
+            "region": 10
+        },
+        {
+            "id": "2",
+            "name": "Space 4 U",
+            "email": "info@space4u.co.test",
+            "region": 27
+        }
+    ],
+    "products": [
+        {
+            "id": "4378",
+            "Name": "Falcon 9 ",
+            "Price": "$62m",
+            "Currency": "USD"
+        },
+        {
+            "id": "3095",
+            "Name": "Falcon Heavy ",
+            "Price": "$90m",
+            "Currency": "USD"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "name": "etna_hackathon_template",
+    "version": "1.0.0",
+    "description": "Etna MFG Hackathon Template",
+    "author": "Jason McCormack",
+    "license": "ISC",
+    "scripts": {
+        "start": "node lib/server",
+        "server": "nodemon --exec node lib/server.js",
+        "client": "npm start --prefix client",
+        "dev": "concurrently \"npm run server\" \"json-server --watch mock_api_data.json\" \"npm run client\"",
+        "json:server": "json-server --watch mock_api_data.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "keywords": [
+        "graphql"
+    ],
+    "dependencies": {
+        "axios": "^0.19.1",
+        "chalk": "^3.0.0",
+        "concurrently": "^5.0.2",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "express-graphql": "^0.9.0",
+        "graphql": "^14.5.8",
+        "humps": "^2.0.1",
+        "json-server": "^0.15.1",
+        "pg": "^6.0.1"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.4"
+    }
+}
